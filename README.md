@@ -1,2 +1,1 @@
-# DotNET-Tutorial
-All Codes For ASP.NET 
+# ASP.NET Study Project List
