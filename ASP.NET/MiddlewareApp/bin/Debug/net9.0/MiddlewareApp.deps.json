@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "MiddlewareApp/1.0.0": {
+        "runtime": {
+          "MiddlewareApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiddlewareApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
