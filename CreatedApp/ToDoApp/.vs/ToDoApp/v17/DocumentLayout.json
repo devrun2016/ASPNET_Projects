@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|c:\\users\\dever\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\todoapp\\todoapp\\controllers\\todoappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\controllers\\todoappcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|c:\\users\\dever\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\todoapp\\todoapp\\views\\todoapp\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\views\\todoapp\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|c:\\users\\dever\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\todoapp\\todoapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|c:\\users\\dever\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\todoapp\\todoapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|c:\\users\\dever\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\todoapp\\todoapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|c:\\users\\dever\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\todoapp\\todoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|c:\\users\\dever\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\todoapp\\todoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|c:\\users\\dever\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\todoapp\\todoapp\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\models\\todo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|c:\\users\\dever\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\todoapp\\todoapp\\todoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{790CA993-ED63-4AEC-B53A-47C88FF2AA87}|ToDoApp\\ToDoApp.csproj|solutionrelative:todoapp\\todoapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ToDoApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ToDoApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T04:50:28.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ToDoApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ToDoApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T04:47:09.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ToDoApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ToDoApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T04:36:50.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Views\\ToDoApp\\Create.cshtml",
+              "RelativeDocumentMoniker": "ToDoApp\\Views\\ToDoApp\\Create.cshtml",
+              "ToolTip": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Views\\ToDoApp\\Create.cshtml",
+              "RelativeToolTip": "ToDoApp\\Views\\ToDoApp\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T04:28:50.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ToDoAppController.cs",
+              "DocumentMoniker": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Controllers\\ToDoAppController.cs",
+              "RelativeDocumentMoniker": "ToDoApp\\Controllers\\ToDoAppController.cs",
+              "ToolTip": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Controllers\\ToDoAppController.cs",
+              "RelativeToolTip": "ToDoApp\\Controllers\\ToDoAppController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T04:23:03.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ToDoApp\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ToDoApp\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T04:15:09.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ToDoApp",
+              "DocumentMoniker": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
+              "RelativeDocumentMoniker": "ToDoApp\\ToDoApp.csproj",
+              "ToolTip": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\ToDoApp.csproj",
+              "RelativeToolTip": "ToDoApp\\ToDoApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-25T04:14:49.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ToDo.cs",
+              "DocumentMoniker": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Models\\ToDo.cs",
+              "RelativeDocumentMoniker": "ToDoApp\\Models\\ToDo.cs",
+              "ToolTip": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Models\\ToDo.cs",
+              "RelativeToolTip": "ToDoApp\\Models\\ToDo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T04:14:11.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Program.cs",
+              "RelativeDocumentMoniker": "ToDoApp\\Program.cs",
+              "ToolTip": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoApp\\ToDoApp\\Program.cs",
+              "RelativeToolTip": "ToDoApp\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T04:02:48.946Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

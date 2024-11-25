@@ -1,0 +1,30 @@
+﻿<!-- Imported Models -->
+@model ToDoApp.Models.ToDo
+
+<!-- View Title -->
+@{
+    ViewData["Title"] = "Create Tasks";
+}
+
+<h1>Create ToDo Task Item</h1>
+
+<!-- Form Start -->
+<form asp-action="Create" method="post">
+    <!-- Task Name Input -->
+    <div class="form-group">
+        <label asp-for="TaskName" class="control-label"></label>
+        <input asp-for="TaskName" class="form-control" />
+        <span asp-validation-for="TaskName" class="text-danger"></span>
+    </div>
+
+    <!-- Is Complted Input -->
+    <div class="form-group">
+        <label asp-for="IsCompleted" class="control-label"></label>
+        <input asp-for="IsCompleted" type="checkbox" class="form-check-input" />
+        <span asp-validation-for="IsCompleted" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+<a  asp-controller="Home" asp-action ="Index">Cancel</a>
