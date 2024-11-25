@@ -2,11 +2,8 @@
 
 # Created App List
 1. Simple ToDo App
-   - ASP.NET Core MVC / Razor Pages / SQL server Local DB / Bootstrap for UI
-   - SQL Query For Table <br>
-![스크린샷 2024-11-25 140616](https://github.com/user-attachments/assets/6f9e1ad6-daf6-4762-9faf-47cb984721d0)
-  - set id = pk / identity(this will increase id number automatically) 
-
+   - ASP.NET Core MVC / Razor Pages / SQL server Local DB / Bootstrap for UI <br>
+   
 https://github.com/user-attachments/assets/9f966f12-3d57-4dc8-8c05-c1735cf0a9b6
 
 
