@@ -1,0 +1,30 @@
+﻿@model IEnumerable<ToDoList.Models.ToDoItem>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Task List</h1>
+
+@if(!Model.Any()) {
+    <p>No task avaliable</p>
+} else {
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Task Name</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var task in Model)
+            {
+                <tr>
+                    <td>@task.TaksName</td>
+                    <td>@(task.isCompleted ? "Yes" : "No")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

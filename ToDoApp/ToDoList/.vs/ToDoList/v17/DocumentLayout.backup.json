@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoList\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToDoApp/True/SqlTable/dbo.ToDoItems.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BF24B4-3391-47F6-97C2-4C7FB1F020F8}|ToDoList\\ToDoList.csproj|c:\\users\\dever\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\todolist\\todolist\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9BF24B4-3391-47F6-97C2-4C7FB1F020F8}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BF24B4-3391-47F6-97C2-4C7FB1F020F8}|ToDoList\\ToDoList.csproj|c:\\users\\dever\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\todolist\\todolist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9BF24B4-3391-47F6-97C2-4C7FB1F020F8}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9BF24B4-3391-47F6-97C2-4C7FB1F020F8}|ToDoList\\ToDoList.csproj|c:\\users\\dever\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\todolist\\todolist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A9BF24B4-3391-47F6-97C2-4C7FB1F020F8}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dbo.ToDoItems [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ToDoApp/True/SqlTable/dbo.ToDoItems.sql",
+              "ToolTip": "dbo.ToDoItems [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-26T10:38:40.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoList\\ToDoList\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ToDoList\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoList\\ToDoList\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ToDoList\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAowBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:26:53.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoList\\ToDoList\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoList\\ToDoList\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ToDoList\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T10:15:35.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoList\\ToDoList\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ToDoList\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\dever\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\ToDoList\\ToDoList\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ToDoList\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T10:06:31.348Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

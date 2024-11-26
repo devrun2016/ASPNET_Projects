@@ -1,0 +1,37 @@
+﻿@model ToDoList.Models.ToDoItem
+
+@{
+    ViewData["Title"] = "Create Page";
+}
+
+<!-- Form Div-->
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Create To-Do Item</h2>
+
+    <!--Form Start-->
+    <form asp-action="Create" method="post">
+        <!-- Task Title -->
+        <div class="mb-3">
+            <label asp-for="TaksName" class="form-label">Task Name</label>
+            <input asp-for="TaksName" class="form-control" placeholder="Enter task name" />
+            <span asp-validation-for="TaksName" class="text-danger"></span>
+        </div>
+
+        <!--Is Complted-->
+        <div class="form-check mb-3">
+            <input asp-for="isCompleted" type="checkbox" class="form-check-input" id="isCompletedCheck" />
+            <label asp-for="isCompleted" class="form-check-label" for="isCompletedCheck">Is Completed</label>
+            <span asp-validation-for="isCompleted" class="text-danger"></span>
+        </div>
+
+        <!--Submit Button-->
+        <div class="d-flex justify-content-center p-1">
+            <button type="submit" class="btn btn-primary w-50">Submit</button>
+        </div>
+    </form>
+
+    <!-- Cancel -->
+    <div class="d-flex justify-content-center p-1">
+        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary w-50">Cancel</a>
+    </div>
+</div>
