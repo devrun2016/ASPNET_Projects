@@ -7,3 +7,6 @@
 https://github.com/user-attachments/assets/9f966f12-3d57-4dc8-8c05-c1735cf0a9b6
 
 
+2. Urban Shop E-Commerce App <br>
+DB ERD / Normalization / Query -> <a href="https://github.com/devrun2016/Database_Projects/tree/main/UrbanShop">Link</a> <br>
+Project Folder-> <a href="https://github.com/devrun2016/ASPNET_Projects/tree/main/UrbanShop">Link</a> <br>
