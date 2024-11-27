@@ -11,4 +11,4 @@ https://github.com/user-attachments/assets/9f966f12-3d57-4dc8-8c05-c1735cf0a9b6
 DB ERD / Normalization / Query -> <a href="https://github.com/devrun2016/Database_Projects/tree/main/UrbanShop">Link</a> <br>
 Project Folder-> <a href="https://github.com/devrun2016/ASPNET_Projects/tree/main/UrbanShop">Link</a> <br>
 
-![스크린샷 2024-11-28 033123](https://github.com/user-attachments/assets/0123a0b9-9e95-4428-add6-5fc544f143bd)
+![스크린샷 2024-11-28 055700](https://github.com/user-attachments/assets/cb595935-c68b-456d-bd0a-34ecb1f698a8)
