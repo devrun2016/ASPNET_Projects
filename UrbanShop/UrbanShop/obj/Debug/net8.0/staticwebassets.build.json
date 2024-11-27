@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "denNl61ykABRE+wlJurOyQWp5HIa2r7lR49L0bYyOT8=",
+  "Hash": "x6ifp3dxSBXE1CmC30wxBcM/S16yPkHptdhUtIwSomM=",
   "Source": "UrbanShop",
   "BasePath": "_content/UrbanShop",
   "Mode": "Default",
@@ -59,6 +59,27 @@
       "OriginalItemSpec": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\UrbanShop.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\css\\custome.css",
+      "SourceId": "UrbanShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\",
+      "BasePath": "_content/UrbanShop",
+      "RelativePath": "css/custome#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "77oa1r7m0f",
+      "Integrity": "A3ZvCm9CEZN7ESSl4h8A2Ebkph0u9a1jHyst3jmLPJo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\custome.css"
+    },
+    {
       "Identity": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\css\\site.css",
       "SourceId": "UrbanShop",
       "SourceType": "Discovered",
@@ -73,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ymjymprujy",
-      "Integrity": "Fl48+VrP9U/fTmgrBqgOHMCwjB/IB9r46AW6bscZCjE=",
+      "Fingerprint": "c2tiyv64ts",
+      "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -99,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\images\\blackfriday.png",
+      "SourceId": "UrbanShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\",
+      "BasePath": "_content/UrbanShop",
+      "RelativePath": "images/blackfriday#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yej903or0m",
+      "Integrity": "ivYYDXQj/24kZGVAsG03GZsHQHWhyi9KkQrOd8ECRtw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\blackfriday.png"
     },
     {
       "Identity": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\js\\site.js",
@@ -1321,6 +1363,133 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/custome.77oa1r7m0f.css",
+      "AssetFile": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\css\\custome.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A3ZvCm9CEZN7ESSl4h8A2Ebkph0u9a1jHyst3jmLPJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 14:44:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "77oa1r7m0f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/custome.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-A3ZvCm9CEZN7ESSl4h8A2Ebkph0u9a1jHyst3jmLPJo="
+        }
+      ]
+    },
+    {
+      "Route": "css/custome.css",
+      "AssetFile": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\css\\custome.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "77"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"A3ZvCm9CEZN7ESSl4h8A2Ebkph0u9a1jHyst3jmLPJo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 14:44:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-A3ZvCm9CEZN7ESSl4h8A2Ebkph0u9a1jHyst3jmLPJo="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.c2tiyv64ts.css",
+      "AssetFile": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "362"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 14:19:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c2tiyv64ts"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+        }
+      ]
+    },
+    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1331,7 +1500,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "410"
+          "Value": "362"
         },
         {
           "Name": "Content-Type",
@@ -1339,11 +1508,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Fl48+VrP9U/fTmgrBqgOHMCwjB/IB9r46AW6bscZCjE=\""
+          "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 12:43:54 GMT"
+          "Value": "Wed, 27 Nov 2024 14:19:39 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1353,52 +1522,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Fl48+VrP9U/fTmgrBqgOHMCwjB/IB9r46AW6bscZCjE="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.ymjymprujy.css",
-      "AssetFile": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "410"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Fl48+VrP9U/fTmgrBqgOHMCwjB/IB9r46AW6bscZCjE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 12:43:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ymjymprujy"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Fl48+VrP9U/fTmgrBqgOHMCwjB/IB9r46AW6bscZCjE="
+          "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
         }
       ]
     },
@@ -1481,6 +1605,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/blackfriday.png",
+      "AssetFile": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\images\\blackfriday.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61324"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ivYYDXQj/24kZGVAsG03GZsHQHWhyi9KkQrOd8ECRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 14:38:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ivYYDXQj/24kZGVAsG03GZsHQHWhyi9KkQrOd8ECRtw="
+        }
+      ]
+    },
+    {
+      "Route": "images/blackfriday.yej903or0m.png",
+      "AssetFile": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\images\\blackfriday.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61324"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ivYYDXQj/24kZGVAsG03GZsHQHWhyi9KkQrOd8ECRtw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 27 Nov 2024 14:38:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yej903or0m"
+        },
+        {
+          "Name": "label",
+          "Value": "images/blackfriday.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ivYYDXQj/24kZGVAsG03GZsHQHWhyi9KkQrOd8ECRtw="
         }
       ]
     },

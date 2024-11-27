@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\UrbanShop.ejldq3cu17.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\css\\custome.css",
+      "PackagePath": "staticwebassets\\css\\custome.css"
+    },
+    {
       "Id": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\images\\blackfriday.png",
+      "PackagePath": "staticwebassets\\images\\blackfriday.png"
     },
     {
       "Id": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\js\\site.js",
