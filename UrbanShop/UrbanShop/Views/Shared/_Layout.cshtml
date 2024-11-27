@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - UrbanShop</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/UrbanShop.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <!-- Nav -->
+        <nav class="navbar navbar-expand-lg bg-white">
+            <!-- Logo -->
+            <div class="container d-flex flex-column align-items-center pt-lg-4">
+                <div class="container d-flex align-items-center justify-content-between position-relative">
+                    <!-- 로고 부분 (가운데 위치) -->
+                    <a class="navbar-brand mx-auto text-dark fw-bold position-absolute start-50 translate-middle-x" style="letter-spacing: 10px;">Urban Shop</a>
+
+                    <!-- 토글 버튼 (우측 정렬) -->
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse justify-content-center pt-4" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item  m-1 mx-3">
+                            <a class="nav-link text-danger fw-bold" href="#">Sale</a>
+                        </li>
+                        <li class="nav-item m-1 mx-3">
+                            <a class="nav-link fw-bold" style="color: blue" href="#">New</a>
+                        </li>
+                        <li class="nav-item m-1 mx-3">
+                            <a class="nav-link text-black" href="#">Girl</a>
+                        </li>
+                        <li class="nav-item m-1 mx-3">
+                            <a class="nav-link text-black" href="#">Man</a>
+                        </li>
+                        <li class="nav-item m-1 mx-3">
+                            <a class="nav-link text-black" href="#">Jeans</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
