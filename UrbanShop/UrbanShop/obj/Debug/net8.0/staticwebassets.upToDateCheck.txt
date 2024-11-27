@@ -1,6 +1,7 @@
 wwwroot\css\custome.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\banner.webp
 wwwroot\images\blackfriday.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

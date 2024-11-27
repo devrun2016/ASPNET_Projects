@@ -13,11 +13,11 @@
 <body>
     <header>
         <!-- Nav -->
-        <nav class="navbar navbar-expand-lg bg-white">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top pb-4">
             <!-- Logo -->
             <div class="container d-flex flex-column align-items-center pt-lg-4">
                 <div class="container d-flex align-items-center justify-content-between position-relative">
-                    <a class="navbar-brand mx-auto text-dark fw-bold position-absolute start-50 translate-middle-x" style="letter-spacing: 10px;">
+                    <a class="navbar-brand mx-auto text-dark fw-bold position-absolute start-50 translate-middle-x" style="letter-spacing: 10px; font-size: 2.6rem;">
                         URBAN SHOP
                     </a>
 
@@ -28,22 +28,22 @@
                 </div>
 
                 <!-- Nav Items -->
-                <div class="collapse navbar-collapse justify-content-center pt-4" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-center pt-5" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item  m-1 mx-3">
-                            <a class="nav-link fw-bold" style="color:red;" href="#">Sale</a>
+                            <a class="nav-link fw-bold" style="color:red; font-size: 1.6rem;" href="#">Sale</a>
                         </li>
                         <li class="nav-item m-1 mx-3">
-                            <a class="nav-link fw-bold" style="color: blue" href="#">New</a>
+                            <a class="nav-link fw-bold" style="color: blue; font-size: 1.6rem;" href="#">New</a>
                         </li>
                         <li class="nav-item m-1 mx-3">
-                            <a class="nav-link text-black" href="#">Girl</a>
+                            <a class="nav-link text-black" style="font-size: 1.6rem;" href="#">Girl</a>
                         </li>
                         <li class="nav-item m-1 mx-3">
-                            <a class="nav-link text-black" href="#">Man</a>
+                            <a class="nav-link text-black" style="font-size: 1.6rem;" href="#">Man</a>
                         </li>
                         <li class="nav-item m-1 mx-3">
-                            <a class="nav-link text-black" href="#">Jeans</a>
+                            <a class="nav-link text-black" style="font-size: 1.6rem;" href="#">Jeans</a>
                         </li>
                     </ul>
                 </div>
@@ -52,42 +52,42 @@
     </header>
 
     <!-- Main Body -->
-    <div class="container">
+    <div class="container-fluid " style="padding-bottom: 100px;">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
     <!-- Footer -->
-    <footer class="border-top footer text-muted pb-5">
-        <div class="container d-flex flex-sm-row justify-content-start">
-            <div class="d-flex flex-column me-5 p-0">
-                <p class="fw-bold p-0 m-0" style="color: black;">Company</p>
-                <a class="footer-link text-decoration-none" style="color: #4b4d4e;" href="#">About Us</a>
-                <a class="footer-link text-decoration-none" style="color: #4b4d4e;" href="#">Privacy Policy</a>
-                <a class="footer-link text-decoration-none" style="color: #4b4d4e;" href="#">Terms Of Use</a>
+    <footer class="border-top footer text-muted pb-5 mt-5" style="background-color: white; position: relative;">
+        <div class="container d-flex flex-wrap justify-content-between">
+            <div class="d-flex flex-column mb-4">
+                <p class="fw-bold text-dark mb-2">Company</p>
+                <a class="footer-link text-decoration-none text-muted mb-1" href="#">About Us</a>
+                <a class="footer-link text-decoration-none text-muted mb-1" href="#">Privacy Policy</a>
+                <a class="footer-link text-decoration-none text-muted mb-1" href="#">Terms Of Use</a>
             </div>
 
-            <div class="d-flex flex-column me-5 p-0">
-                <p class="fw-bold p-0 m-0" style="color: black;">Contact</p>
-                <a class="footer-link text-decoration-none" style="color: #4b4d4e;"  href="#">Order Status</a>
-                <a class="footer-link text-decoration-none" style="color: #4b4d4e;"  href="#">FAQs</a>
-                <a class="footer-link text-decoration-none" style="color: #4b4d4e;"  href="#">Size Guide</a>
-                <a class="footer-link text-decoration-none" style="color: #4b4d4e;" href="#">Shipping</a>
-                <a class="footer-link text-decoration-none" style="color: #4b4d4e;" href="#">Return</a>
-                <a class="footer-link text-decoration-none" style="color: #4b4d4e;" href="#">Contact Us</a>
+            <div class="d-flex flex-column mb-4">
+                <p class="fw-bold text-dark mb-2">Contact</p>
+                <a class="footer-link text-decoration-none text-muted mb-1" href="#">Order Status</a>
+                <a class="footer-link text-decoration-none text-muted mb-1" href="#">FAQs</a>
+                <a class="footer-link text-decoration-none text-muted mb-1" href="#">Size Guide</a>
+                <a class="footer-link text-decoration-none text-muted mb-1" href="#">Shipping</a>
+                <a class="footer-link text-decoration-none text-muted mb-1" href="#">Return</a>
+                <a class="footer-link text-decoration-none text-muted mb-1" href="#">Contact Us</a>
             </div>
 
-            <div class="d-flex flex-column me-5 p-0">
-                <p class="fw-bold p-0 m-0" style="color: black;">SNS</p>
-                <a class="footer-link text-decoration-none" style="color: #4b4d4e;" href="#">
-                    <i class="bi bi-instagram"> Instagram</i>
+            <div class="d-flex flex-column mb-4">
+                <p class="fw-bold text-dark mb-2">SNS</p>
+                <a class="footer-link text-decoration-none text-muted mb-1" href="#">
+                    <i class="bi bi-instagram me-1"></i>Instagram
                 </a>
-                <a class="footer-link text-decoration-none" style="color: #4b4d4e;" href="#">
-                    <i class="bi bi-facebook"> Facebook</i>
+                <a class="footer-link text-decoration-none text-muted mb-1" href="#">
+                    <i class="bi bi-facebook me-1"></i>Facebook
                 </a>
-                <a class="footer-link text-decoration-none" style="color: #4b4d4e;" href="#">
-                    <i class="bi bi-youtube"> Youtube</i>
+                <a class="footer-link text-decoration-none text-muted mb-1" href="#">
+                    <i class="bi bi-youtube me-1"></i>Youtube
                 </a>
             </div>
         </div>
@@ -97,12 +97,9 @@
     <style>
         .footer-link {
             font-size: 0.9rem;
-            margin: 0; 
-            padding: 0;
-            line-height: 2; 
+            line-height: 2;
         }
     </style>
-
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
