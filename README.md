@@ -7,8 +7,8 @@
 https://github.com/user-attachments/assets/9f966f12-3d57-4dc8-8c05-c1735cf0a9b6
 
 
-2. Urban Shop E-Commerce App <br>
+2. Urban Shop E-Commerce App | Start: Nov 28, 2024 <br> 
 DB ERD / Normalization / Query -> <a href="https://github.com/devrun2016/Database_Projects/tree/main/UrbanShop">Link</a> <br>
 Project Folder-> <a href="https://github.com/devrun2016/ASPNET_Projects/tree/main/UrbanShop">Link</a> <br>
 
-![스크린샷 2024-11-27 233117](https://github.com/user-attachments/assets/65f10a1e-732e-4bb7-9660-3553073a633d)
+![스크린샷 2024-11-28 033123](https://github.com/user-attachments/assets/0123a0b9-9e95-4428-add6-5fc544f143bd)
