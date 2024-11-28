@@ -12,32 +12,33 @@
 </head>
 <body>
     <header class="border-bottom">
-        <div class="container-fluid d-flex justify-content-end">
-            <!-- Login and Sign Up links -->
-            <div class="d-flex me-5 mt-5">
-                @if (User.Identity.IsAuthenticated)
-                {
-                    <!-- Logout Button -->
-                    <form asp-controller="Auth" asp-action="Logout" method="post" class="d-inline">
-                        <button type="submit" class="btn text-dark fw-bold text-decoration-none me-5">
-                            <i class="bi bi-box-arrow-right fs-3 me-2"></i>
-                            <span class="fs-4">Logout</span>
-                        </button>
-                    </form>
-                }
-                else
-                {
-                    <!-- Login Button -->
-                    <a asp-controller="Auth" asp-action="Index" class="text-dark me-3 fw-bold text-decoration-none me-5">
-                        <i class="bi bi-person-circle fs-3 me-2"></i>
-                        <span class="fs-4">Account</span>
-                    </a>
-                }
-                <a href="#" class="text-dark me-3 fw-bold text-decoration-none me-5">
-                    <i class="bi bi-heart fs-3 me-2"></i> <span class="fs-4">Wishlist</span>
+        <div class="d-flex align-items-center me-5 mt-5">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <!-- Logout Button -->
+                <form asp-controller="Auth" asp-action="Logout" method="post" class="d-inline ms-auto">
+                    <button type="submit" class="btn text-dark fw-bold text-decoration-none me-3">
+                        <i class="bi bi-box-arrow-right fs-2 me-2"></i>
+                        <span class="fs-4">Logout</span>
+                    </button>
+                </form>
+            }
+            else
+            {
+                <!-- Login Button -->
+                <a asp-controller="Auth" asp-action="Index" class="text-dark fw-bold text-decoration-none me-5 ms-auto">
+                    <i class="bi bi-person-circle fs-3 me-2"></i>
+                    <span class="fs-4">Account</span>
                 </a>
-            </div>
+            }
+
+            <!-- Wishlist -->
+            <a href="#" class="text-dark fw-bold text-decoration-none me-5">
+                <i class="bi bi-heart fs-3 me-2"></i>
+                <span class="fs-4">Wishlist</span>
+            </a>
         </div>
+
 
 
         <!-- Nav -->

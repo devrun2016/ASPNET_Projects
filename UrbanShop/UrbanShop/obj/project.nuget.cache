@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "vLxLda9vToo=",
+  "dgSpecHash": "Q4x/G6B2Dgw=",
   "success": true,
   "projectFilePath": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\UrbanShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dever\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\dever\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\dever\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\dever\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\dever\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\dever\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",

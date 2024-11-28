@@ -108,5 +108,40 @@ namespace UrbanShop.Controllers
             return RedirectToAction("Index", "Home");
         }
 
+
+        [HttpPost]
+        public async Task<IActionResult> SignIn(LoginViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                // Find user by account
+                var account = await _context.Account.FirstOrDefaultAsync(a => a.User_Account == model.User_Account);
+
+                if (account != null && account.User_Password == model.Password)
+                {
+                    // Set session
+                    var claims = new List<Claim>
+            {
+                new Claim(ClaimTypes.Name, account.User_Account),
+                new Claim("AccountId", account.Account_ID.ToString())
+            };
+
+                    var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+                    await HttpContext.SignInAsync("UrbanShopAuth", new ClaimsPrincipal(claimsIdentity), new AuthenticationProperties
+                    {
+                        IsPersistent = true,
+                        ExpiresUtc = DateTime.UtcNow.AddHours(1)
+                    });
+
+                    return RedirectToAction("Index", "Home");
+                }
+
+                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+            }
+
+            return View(model);
+        }
+
     }
 }

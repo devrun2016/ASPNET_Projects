@@ -170,3 +170,4 @@ C:\Users\dever\OneDrive\바탕 화면\Project\UrbanShop\UrbanShop\obj\Debug\net8
 C:\Users\dever\OneDrive\바탕 화면\Project\UrbanShop\UrbanShop\obj\Debug\net8.0\UrbanShop.pdb
 C:\Users\dever\OneDrive\바탕 화면\Project\UrbanShop\UrbanShop\obj\Debug\net8.0\UrbanShop.genruntimeconfig.cache
 C:\Users\dever\OneDrive\바탕 화면\Project\UrbanShop\UrbanShop\obj\Debug\net8.0\ref\UrbanShop.dll
+C:\Users\dever\OneDrive\바탕 화면\Project\UrbanShop\UrbanShop\bin\Debug\net8.0\BCrypt.Net-Next.dll
