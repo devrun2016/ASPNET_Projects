@@ -2,14 +2,42 @@
     ViewData["Title"] = "Home Page";
 }
 
+<!-- Banner-->
 <div class="container-fluid d-flex justify-content-center">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="width: 90%;">
         <div class="carousel-inner">
             <div class="carousel-item active">
+                <!-- Banner Image -->
                 <img src="/images/banner.webp" class="d-block w-100" alt="blackfriday sale">
             </div>
         </div>
     </div>
 </div>
 
+<div class="container-fluid d-flex flex-column align-items-center pt-5">
+
+    <p style="font-size: 4rem; letter-spacing: 0.2rem;" class="fw-bold"> BEST ITEMS</p>
+
+    <div class="container-fluid d-flex flex-row justify-content-center flex-wrap gap-5">
+        @for (int i = 0; i < 6; i++)
+        {
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+                <div class="card-body">
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
 

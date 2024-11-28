@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AVU5kQhZ6y9fzc62xDUEqK6fwn05Ym4xdrx1n0/7UNI=",
+  "Hash": "uzYDW5fKo61ZlSTsVWTfX5J/pUBUiYYsBOXZw3df21o=",
   "Source": "UrbanShop",
   "BasePath": "_content/UrbanShop",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ap5i0tqbhh",
-      "Integrity": "oh4lBLcNvUbd+G3mHOZgpZwb1aVVv8jwEc300lIdW8g=",
+      "Fingerprint": "3r8b2a0bt1",
+      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\custome.css"
@@ -1384,7 +1384,7 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/custome.ap5i0tqbhh.css",
+      "Route": "css/custome.3r8b2a0bt1.css",
       "AssetFile": "C:\\Users\\dever\\OneDrive\\바탕 화면\\Project\\UrbanShop\\UrbanShop\\wwwroot\\css\\custome.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1394,7 +1394,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41"
+          "Value": "3"
         },
         {
           "Name": "Content-Type",
@@ -1402,11 +1402,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oh4lBLcNvUbd+G3mHOZgpZwb1aVVv8jwEc300lIdW8g=\""
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 17:46:58 GMT"
+          "Value": "Wed, 27 Nov 2024 18:22:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1416,7 +1416,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ap5i0tqbhh"
+          "Value": "3r8b2a0bt1"
         },
         {
           "Name": "label",
@@ -1424,7 +1424,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oh4lBLcNvUbd+G3mHOZgpZwb1aVVv8jwEc300lIdW8g="
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
         }
       ]
     },
@@ -1439,7 +1439,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "41"
+          "Value": "3"
         },
         {
           "Name": "Content-Type",
@@ -1447,11 +1447,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oh4lBLcNvUbd+G3mHOZgpZwb1aVVv8jwEc300lIdW8g=\""
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 27 Nov 2024 17:46:58 GMT"
+          "Value": "Wed, 27 Nov 2024 18:22:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1461,7 +1461,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oh4lBLcNvUbd+G3mHOZgpZwb1aVVv8jwEc300lIdW8g="
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
         }
       ]
     },

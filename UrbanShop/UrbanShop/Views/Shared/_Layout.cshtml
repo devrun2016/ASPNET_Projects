@@ -11,9 +11,23 @@
     <link rel="stylesheet" href="~/css/custom.css" />
 </head>
 <body>
-    <header>
+    <header class="border-bottom">
+        <div class="container-fluid d-flex justify-content-end">
+            <!-- Login and Sign Up links -->
+            <div class="d-flex me-5 mt-5">
+                <a asp-controller="Auth" asp-action="Index" class="text-dark me-3 fw-bold text-decoration-none me-5">
+                    <i class="bi bi-person-circle fs-3 me-2"></i> <span class="fs-4">Account</span>
+                </a>
+
+                <a href="#" class="text-dark me-3 fw-bold text-decoration-none me-5">
+                    <i class="bi bi-heart fs-3 me-2"></i> <span class="fs-4">Wishlist</span>
+                </a>
+            </div>
+        </div>
+
+
         <!-- Nav -->
-        <nav class="navbar navbar-expand-lg bg-white fixed-top pb-4">
+        <nav class="navbar navbar-expand-lg bg-white pb-4">
             <!-- Logo -->
             <div class="container d-flex flex-column align-items-center pt-lg-4">
                 <div class="container d-flex align-items-center justify-content-between position-relative">
@@ -31,24 +45,25 @@
                 <div class="collapse navbar-collapse justify-content-center pt-5" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item  m-1 mx-3">
-                            <a class="nav-link fw-bold" style="color:red; font-size: 1.6rem;" href="#">Sale</a>
+                            <a class="nav-link fw-bold" style="color:red; font-size: 1.2rem;" href="#">Sale</a>
                         </li>
                         <li class="nav-item m-1 mx-3">
-                            <a class="nav-link fw-bold" style="color: blue; font-size: 1.6rem;" href="#">New</a>
+                            <a class="nav-link fw-bold" style="color: blue; font-size: 1.2rem;" href="#">New</a>
                         </li>
                         <li class="nav-item m-1 mx-3">
-                            <a class="nav-link text-black" style="font-size: 1.6rem;" href="#">Girl</a>
+                            <a class="nav-link text-black" style="font-size: 1.2rem;" href="#">Girl</a>
                         </li>
                         <li class="nav-item m-1 mx-3">
-                            <a class="nav-link text-black" style="font-size: 1.6rem;" href="#">Man</a>
+                            <a class="nav-link text-black" style="font-size: 1.2rem;" href="#">Man</a>
                         </li>
                         <li class="nav-item m-1 mx-3">
-                            <a class="nav-link text-black" style="font-size: 1.6rem;" href="#">Jeans</a>
+                            <a class="nav-link text-black" style="font-size: 1.2rem;" href="#">Jeans</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
+
     </header>
 
     <!-- Main Body -->

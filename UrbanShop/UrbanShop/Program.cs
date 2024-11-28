@@ -1,12 +1,22 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using UrbanShop.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-//DB Connection
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Added DbContext
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Add Auth
+builder.Services.AddAuthentication("UrbanShopAuth").AddCookie("UrbanShopAuth", options =>
+{
+    options.LoginPath = "/Auth/Index";
+    options.AccessDeniedPath = "/Auth/AccessDenied";
+});
 
 var app = builder.Build();
 
@@ -23,6 +33,9 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthorization();
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
