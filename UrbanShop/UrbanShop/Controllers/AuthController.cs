@@ -4,6 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using UrbanShop.Data;
 using UrbanShop.Models;
 using System.Threading.Tasks;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 
 namespace UrbanShop.Controllers
 {
@@ -32,32 +35,78 @@ namespace UrbanShop.Controllers
         [HttpPost]
         public async Task<IActionResult> SignUp(SignUpViewModel model)
         {
-            var account = new Account
+            if (ModelState.IsValid)
             {
-                User_Account = model.User_Account,
-                User_Password = model.User_Password
-            };
+                // Check Account
+                var existingAccount = await _context.Account.FirstOrDefaultAsync(a => a.User_Account == model.User_Account);
 
-            var customer = new Customer
-            {
-                Customer_Name = model.Customer_Name,
-                Customer_Email = model.Customer_Email,
-                Customer_Phone = model.Customer_Phone,
-            };
-            
-            //Saving Account Data To DB
-            await _context.Account.AddAsync(account);
-            await _context.SaveChangesAsync();
+                //Display Error when user account already in DB
+                if (existingAccount != null)
+                {
+                    ModelState.AddModelError("User_Account", "This account already exists.");
+                }
 
-            //Add Account ID From Account -> Customer Table Account_ID(FK)
-            customer.Account_ID = account.Account_ID;
+                //Check Email
+                var existingEmail = await _context.Customers.FirstOrDefaultAsync(c => c.Customer_Email == model.Customer_Email);
 
-            //Saving Customer Data To DB
-            await _context.Customers.AddAsync(customer); 
-            await _context.SaveChangesAsync();
+                //Display error when user email already in DB
+                if (existingEmail != null)
+                {
+                    ModelState.AddModelError("Customer_Email", "This email is already registered.");
+                }
+
+                var account = new Account
+                {
+                    User_Account = model.User_Account,
+                    User_Password = model.User_Password
+                };
+
+                var customer = new Customer
+                {
+                    Customer_Name = model.Customer_Name,
+                    Customer_Email = model.Customer_Email,
+                    Customer_Phone = model.Customer_Phone,
+                };
+
+                //Saving Account Data To DB
+                await _context.Account.AddAsync(account);
+                await _context.SaveChangesAsync();
+
+                //Add Account ID From Account -> Customer Table Account_ID(FK)
+                customer.Account_ID = account.Account_ID;
+
+                //Saving Customer Data To DB
+                await _context.Customers.AddAsync(customer);
+                await _context.SaveChangesAsync();
+
+                //After finished sign up set session
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, account.User_Account),
+                    new Claim("AccountId", account.Account_ID.ToString())
+                };
+
+                var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+
+                await HttpContext.SignInAsync("UrbanShopAuth", new ClaimsPrincipal(claimsIdentity), new AuthenticationProperties
+                {
+                    IsPersistent = true,
+                    ExpiresUtc = DateTime.UtcNow.AddHours(1)
+                });
+
+                return RedirectToAction("Index", "Home");
+            }
 
             //Redirect view to home
             return RedirectToAction("Index", "Home");
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync("UrbanShopAuth");
+            return RedirectToAction("Index", "Home");
+        }
+
     }
 }
