@@ -14,8 +14,10 @@ Project Folder-> <a href="https://github.com/devrun2016/ASPNET_Projects/tree/mai
 * Need to update
    > Session / Sign In / User information checker
 
-### Sign Up On Web
-https://github.com/user-attachments/assets/315a9def-de4e-47b0-81fa-002faf09bc18
+### Sign Up On Web + Session + Sign Out
+
+https://github.com/user-attachments/assets/e7b279e9-f840-4c16-a934-7a3bbb4ed9d2
+
 
 ### Check DB Table 
 https://github.com/user-attachments/assets/3ffba65c-02bf-4514-9ae4-81927f7cb14c
