@@ -11,8 +11,10 @@ https://github.com/user-attachments/assets/9f966f12-3d57-4dc8-8c05-c1735cf0a9b6
 DB ERD / Normalization / Query -> <a href="https://github.com/devrun2016/Database_Projects/tree/main/UrbanShop">Link</a> <br>
 Project Folder-> <a href="https://github.com/devrun2016/ASPNET_Projects/tree/main/UrbanShop">Link</a> <br>
 
-* Need to update
-   > Session / Sign In / User information checker
+* Final
+  > Sign In / Sign Up / Sign Out Created
+  > Session Checked
+  > User Verification (Email / Account Checker added)
 
 ### Sign Up On Web + Session + Sign Out
 
