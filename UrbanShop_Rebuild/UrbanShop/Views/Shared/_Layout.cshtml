@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - UrbanShop</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Sub Header -->
+        <div class="sub-header">
+            <a class="navitem nav-icon" href="#"><i class="bi bi-person-fill"></i> Sign In</a>
+            <a class="navitem nav-icon" href="#"><i class="bi bi-telephone-fill"></i> Contact</a>
+        </div>
+        
+        <!-- Nav -->
+        <div class="header">
+            <a class="logo" asp-controller="Home" asp-action="Index">URBANSHOP</a>
+            <nav>
+                <ul class="nav">
+                    <li><a class="navitem navitem-sale"  href="#">SALE</a></li>
+                    <li><a class="navitem navitem-new" href="#">NEW</a></li>
+                    <li><a class="navitem" href="#">MAN</a></li>
+                    <li><a class="navitem" href="#">WOMEN</a></li>
+                    <li><a class="navitem" href="#">KIDS</a></li>
+                    <li><a class="navitem" href="#">ACCESSORY</a></li>
+                    <li><a class="navitem" href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    @RenderBody()
+
+    <footer>
+
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
