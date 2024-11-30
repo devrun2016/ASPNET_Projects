@@ -15,5 +15,10 @@
 
 ### Build History
 
+Nov 30, 2024
+- Sign up created
+- Email checking from db
+- Password hashing
+
 Nov 29, 2024
 * Header Created - Shared/_Layout.cshtml
