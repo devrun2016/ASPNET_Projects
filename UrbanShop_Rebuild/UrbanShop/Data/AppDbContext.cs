@@ -9,6 +9,7 @@ namespace UrbanShop
 
         public DbSet<Account> Account { get; set; }
         public DbSet<Customer> Customer { get; set; }
+        public DbSet<Manager> Manger { get; set; }   
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
