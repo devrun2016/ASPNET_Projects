@@ -1,4 +1,4 @@
-﻿@model UrbanShop.Models.AccountCustomerViewModel
+﻿@model AccountCustomerViewModel
 
 @{
     ViewData["Title"] = "Sign Up | Urbanshop";
@@ -44,3 +44,13 @@
         <a asp-controller="Home" asp-action="Index" class="btn btn-secondary w-50 p-2 rounded-pill fs-2 fw-bold">Cancel</a>
     </div>
 </div>
+
+<script>
+    // 알림창 표시
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <text>
+                alert('@TempData["ErrorMessage"]');
+        </text>
+    }
+</script>

@@ -12,7 +12,7 @@ namespace UrbanShop.Models
         public string Email { get; set; }
 
         [Required]
-        [StringLength(50)]
+        [StringLength(255)]
         public string Password { get; set; }
     }
 }

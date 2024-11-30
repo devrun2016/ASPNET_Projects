@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using UrbanShop.Models;
 
 namespace UrbanShop.Controllers
@@ -26,10 +28,22 @@ namespace UrbanShop.Controllers
         public async Task<IActionResult> SignUp(AccountCustomerViewModel model)
         {
             if (ModelState.IsValid) {
+
+                //Compare Email Address From DB
+                var emailCheck = await _dbContext.Account.FirstOrDefaultAsync(a => a.Email == model.ac_email);
+
+                if (emailCheck != null) {
+                    TempData["ErrorMessage"] = "This email address is already in use.";
+                    return View();
+                }
+
+                //Hashing password
+                var encryptedPw = new PasswordHasher<Account>();
+
                 var account = new Account
                 {
                     Email = model.ac_email,
-                    Password = model.ac_password
+                    Password = encryptedPw.HashPassword(null, model.ac_password)
                 };
 
                 _dbContext.Add(account);
@@ -48,7 +62,8 @@ namespace UrbanShop.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
-            return RedirectToAction("Index", "Home");
+            TempData["ErrorMessage"] = "Please check the form for errors.";
+            return RedirectToAction("SignUp", "Auth");
         }
     }
 }
