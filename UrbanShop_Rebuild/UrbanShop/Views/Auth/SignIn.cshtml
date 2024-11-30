@@ -1,4 +1,6 @@
-﻿@{
+﻿@model Account
+
+@{
     ViewData["Title"] = "Sign In | Urbanshop ";
 }
 
@@ -9,13 +11,13 @@
         <!-- Email Input -->
         <div class="input-group flex-nowrap">
             <span class="input-group-text p-2 fs-4 fw-bold" style="width: 150px;" id="addon-wrapping">Email</span>
-            <input type="email" class="form-control fs-4" placeholder="Enter your email" aria-label="Username" aria-describedby="addon-wrapping">
+            <input type="email" asp-for="Email"  class="form-control fs-4" placeholder="Enter your email" aria-label="Username" aria-describedby="addon-wrapping">
         </div>
 
         <!-- Password Input -->
         <div class="input-group flex-nowrap pt-3">
             <span class="input-group-text p-2 fs-4 fw-bold" style="width: 150px;" id="addon-wrapping">Password</span>
-            <input type="password" class="form-control fs-4" placeholder="Enter your password" aria-label="Username" aria-describedby="addon-wrapping">
+            <input type="password" asp-for="Password" class="form-control fs-4" placeholder="Enter your password" aria-label="Username" aria-describedby="addon-wrapping">
         </div>
 
         <!-- Find Account or Password Link -->

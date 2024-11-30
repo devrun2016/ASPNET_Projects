@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using UrbanShop;
 
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -10,6 +9,13 @@ builder.Services.AddControllersWithViews();
 // Add DbContext with SQL Server
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Auth
+builder.Services.AddAuthentication("UrbanShopAuth").AddCookie("UrbanShopAuth", options =>
+{
+    options.LoginPath = "/Auth/SignIn";
+    options.AccessDeniedPath = "/Auth/AccessDenied";
+});
 
 var app = builder.Build();
 
@@ -26,6 +32,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

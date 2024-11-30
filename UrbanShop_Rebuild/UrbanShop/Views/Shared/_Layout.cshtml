@@ -11,11 +11,18 @@
 <body>
     <header>
         <div class="container-fluid bg-black d-flex justify-content-end align-items-center pt-4">
+            @if (User.Identity.IsAuthenticated) {
+                <form asp-controller="Auth" asp-action="Logout" method="post" class="d-inline ms-auto">
+                    <button type="submit" class="bg-transparent border-0">
+                        <span class="text-white fs-5 me-4">Sign Out</span>
+                    </button>
+                </form>
+            } else {
+                <a asp-controller="Auth" asp-action="SignIn" class="text-white text-decoration-none me-4 d-flex align-items-center">
+                    <span class="ms-2 fs-5 text-white">SignIn</span>
+                </a>
+            }
 
-            <a asp-controller="Auth" asp-action="SignIn" class="text-white text-decoration-none me-4 d-flex align-items-center">
-                <span class="ms-2 fs-5 text-white">SignIn</span>
-            </a>
- 
             <a href="#" class="text-white text-decoration-none  me-lg-5">
                 Cart
             </a>
