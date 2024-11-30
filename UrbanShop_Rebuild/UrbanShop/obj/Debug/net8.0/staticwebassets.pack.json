@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Projects\\UrbanShop\\UrbanShop\\wwwroot\\images\\banner.svg",
-      "PackagePath": "staticwebassets\\images\\banner.svg"
-    },
-    {
       "Id": "C:\\Projects\\UrbanShop\\UrbanShop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
