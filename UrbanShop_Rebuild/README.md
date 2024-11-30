@@ -11,9 +11,16 @@
 
 ### Previews
 
+https://github.com/user-attachments/assets/8e22f9b0-0ac9-4489-b476-9b601809e910
+
+
 <hr>
 
 ### Build History
+Dec 1, 2024
+- Manager View Created
+- Manager Verification Created
+- Preview Updated
 
 Nov 30, 2024
 - Sign up created
