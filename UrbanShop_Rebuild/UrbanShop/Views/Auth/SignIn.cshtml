@@ -1,0 +1,35 @@
+﻿@{
+    ViewData["Title"] = "Sign In | Urbanshop ";
+}
+
+<div class="container-fluid justify-content-center mt-5">
+    <h1 class="text-center fw-bold mt-4">Sign In</h1>
+
+    <form method="post" class="w-50 m-auto mt-5">
+        <!-- Email Input -->
+        <div class="input-group flex-nowrap">
+            <span class="input-group-text p-2 fs-4 fw-bold" style="width: 150px;" id="addon-wrapping">Email</span>
+            <input type="email" class="form-control fs-4" placeholder="Enter your email" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+
+        <!-- Password Input -->
+        <div class="input-group flex-nowrap pt-3">
+            <span class="input-group-text p-2 fs-4 fw-bold" style="width: 150px;" id="addon-wrapping">Password</span>
+            <input type="password" class="form-control fs-4" placeholder="Enter your password" aria-label="Username" aria-describedby="addon-wrapping">
+        </div>
+
+        <!-- Find Account or Password Link -->
+        <div class="text-end mt-2">
+            <a href="#" class="text-secondary">Find account or password</a>
+        </div>
+
+        <!-- Sign In Button -->
+        <button type="submit" class="btn btn-dark w-100 fs-2 fw-bold p-2 rounded-pill mt-5">Sign In</button>
+    </form>
+
+    <!-- Sign Up Button -->
+    <div class="text-center mt-4 d-flex flex-column align-items-center">
+        <span class="mb-3 fw-bold fs-5 text-secondary">Do not have an account?</span>
+        <a asp-controller="Auth" asp-action="SignUp" class="btn btn-secondary w-50 p-2 rounded-pill fs-2 fw-bold">Sign Up</a>
+    </div>
+</div>

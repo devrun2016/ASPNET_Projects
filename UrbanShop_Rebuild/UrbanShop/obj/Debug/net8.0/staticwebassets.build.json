@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0pAEey3r+Sb7iHZEnVNcEA7VHawgliE7Fb8eGagKrC8=",
+  "Hash": "SjjRzPE0DpUraXiliptwoH016A1KQ6uPIz/y8OSj/Do=",
   "Source": "UrbanShop",
   "BasePath": "_content/UrbanShop",
   "Mode": "Default",
@@ -1343,7 +1343,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 20:59:22 GMT"
+          "Value": "Fri, 29 Nov 2024 21:00:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1388,7 +1388,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 29 Nov 2024 20:59:22 GMT"
+          "Value": "Fri, 29 Nov 2024 21:00:36 GMT"
         },
         {
           "Name": "Cache-Control",
