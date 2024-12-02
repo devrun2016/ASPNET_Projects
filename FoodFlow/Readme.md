@@ -8,13 +8,17 @@
 ![SQL Server](https://img.shields.io/badge/RazorPages-512BD4?style=flat&logo=dotnet&logoColor=white)
 
 ### Preview
-https://github.com/user-attachments/assets/02cab386-0447-4992-ab83-a2b6e9f3d43e
+https://github.com/user-attachments/assets/44d40a4a-30ab-45d7-b012-e2c2dc99c2e9
+
+
 
 ### Build History
 Dec 3, 2024
 - Sign In Method changed ( Checking hashed password)
 - Dashboard added
 - Create User function Added (View too)
+- Employee Category Crated / Add Employee Created / List of Employees Created
+- All Data added to Local DB
 
 Dec 2, 2024
 - Sign In | Sign Out | Authorized Views
