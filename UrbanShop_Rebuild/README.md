@@ -8,12 +8,20 @@
 ![SQL Server](https://img.shields.io/badge/RazorPages-512BD4?style=flat&logo=dotnet&logoColor=white)
 
 <hr>
+### About This App<br>
+* This app made for <b> user verification </b> and checking users are <b>manager(admin)</b> or not. <br>
+* Using <b>Cookie</b> for session, and <b>Identity</b> for user verification
 
 ### Previews
 
+https://github.com/user-attachments/assets/8e22f9b0-0ac9-4489-b476-9b601809e910
 <hr>
 
 ### Build History
+Dec 1, 2024
+- Manager View Created
+- Manager Verification Created
+- Preview Updated
 
 Nov 30, 2024
 - Sign up created
