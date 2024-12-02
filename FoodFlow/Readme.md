@@ -11,6 +11,10 @@
 https://github.com/user-attachments/assets/02cab386-0447-4992-ab83-a2b6e9f3d43e
 
 ### Build History
+Dec 3, 2024
+- Sign In Method changed ( Checking hashed password)
+- Dashboard added
+- Create User function Added (View too)
 
 Dec 2, 2024
 - Sign In | Sign Out | Authorized Views
