@@ -8,7 +8,7 @@
 ![SQL Server](https://img.shields.io/badge/RazorPages-512BD4?style=flat&logo=dotnet&logoColor=white)
 
 <hr>
-### About This App
+### About This App<br>
 * This app made for <b> user verification </b> and checking users are <b>manager(admin)</b> or not. <br>
 * Using <b>Cookie</b> for session, and <b>Identity</b> for user verification
 
