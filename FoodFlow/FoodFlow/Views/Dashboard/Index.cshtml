@@ -2,7 +2,8 @@
     ViewData["Title"] = "Dashboard";
 }
 
-<div class="container">
-    <h1>Welcome to Dashboard</h1>
-    <p>Your email: @ViewBag.UserEmail</p>
+<div class="container-fluid mt-2">
+    <div class="d-flex justify-content-end">
+        <a asp-controller="CreateUser" asp-action="Index" class="btn btn-primary me-3">CREATE USER</a>
+    </div>
 </div>

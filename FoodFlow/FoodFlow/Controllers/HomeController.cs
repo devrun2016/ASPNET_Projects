@@ -33,8 +33,17 @@ namespace FoodFlow.Controllers
             }
 
             // 데이터베이스에서 사용자 확인
-            var user = _context.Account.SingleOrDefault(a => a.Account_Email == model.Email && a.Account_Password == model.Password);
+            var user = _context.Account.SingleOrDefault(a => a.Account_Email == model.Email);
             if (user == null)
+            {
+                ModelState.AddModelError(string.Empty, "Invalid email or password");
+                return RedirectToAction("Index", "Home");
+            }
+
+            var passwordHasher = new PasswordHasher<Account>();
+            var verificationResult = passwordHasher.VerifyHashedPassword(user, user.Account_Password, model.Password);
+
+            if (verificationResult != PasswordVerificationResult.Success)
             {
                 ModelState.AddModelError(string.Empty, "Invalid email or password");
                 return View(model);

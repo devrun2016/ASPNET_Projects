@@ -12,11 +12,11 @@ namespace FoodFlow.Models
         public required string User_FullName { get; set; }
 
         [StringLength(20)]
-        public string User_Phone { get; set; }
+        public required string User_Phone { get; set; }
 
         [ForeignKey("Account")]
         public int Account_ID { get; set; }
 
-        public Account Account { get; set; }
+        public required Account Account { get; set; }
     }
 }

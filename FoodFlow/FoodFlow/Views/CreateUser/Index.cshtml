@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Create User";
+}
+
+<div class="container-fluid d-flex justify-content-center align-items-center ">
+    <div class="card shadow-lg p-4 w-50">
+        <h1 class="fw-bold text-center mb-4">Create New User</h1>
+        <form method="post" asp-controller="CreateUser" asp-action="Create">
+            <div class="form-group mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required />
+                @if (ViewData.ModelState["Email"]?.Errors.Count > 0)
+                {
+                    <span class="text-danger">@ViewData.ModelState["Email"].Errors[0].ErrorMessage</span>
+                }
+            </div>
+            <div class="form-group mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" name="password" class="form-control" placeholder="Enter your password" required />
+            </div>
+            <div class="form-group mb-3">
+                <label for="fullname" class="form-label">Full Name</label>
+                <input type="text" id="fullname" name="fullName" class="form-control" placeholder="Enter your full name" required />
+            </div>
+            <div class="form-group mb-4">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input type="text" id="phone" name="phoneNumber" class="form-control" placeholder="Enter your phone number" required />
+            </div>
+            <div class="d-grid">
+                <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
+
+

@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FoodFlow.Models
 {
@@ -11,7 +12,6 @@ namespace FoodFlow.Models
         [StringLength(50)]
         public required string Account_Email { get; set; }
 
-        [Required]
         [StringLength(255)]
         public required string Account_Password {  get; set; }
 
