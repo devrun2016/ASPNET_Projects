@@ -1,4 +1,4 @@
-# Restaurant Management System(ERP) | Non-Responsive | Full Stack
+# Restaurant Management System(ERP) | Non-Responsive | Full
 ### Tech Stacks
 ![C#](https://img.shields.io/badge/Language-C%23-%23239120?style=flat&logo=csharp) &nbsp;
 ![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet?style=flat&logo=dotnet) &nbsp;
