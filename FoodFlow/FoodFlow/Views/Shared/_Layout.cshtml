@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FoodFlow</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/FoodFlow.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!--Navbar-->
+        <nav class="navbar bg-dark">
+            <div class="container-fluid">
+                <!-- Nav Brand -->
+                <a class="navbar-brand text-white fw-bold fs-3" href="#">FoodFlow</a>
+
+                @if (User.Identity.IsAuthenticated) {
+                    <!-- Nav Items -->
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Sales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Stores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Employees</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Inventory</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Setting</a>
+                        </li>
+                        <form asp-action="Logout" asp-controller="Home" method="post" class="d-inline">
+                            <button type="submit" class="btn btn-danger">Logout</button>
+                        </form>
+                    </ul>
+                }
+            </div>
+        </nav>
+    </header>
+
+    <!-- Body -->
+    @RenderBody()
+
+    <!-- Footer -->
+    <footer>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
