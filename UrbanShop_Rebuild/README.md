@@ -1,4 +1,4 @@
-# E-Commerce Store | Urban Shop | Non-Responsive
+# E-Commerce Store | Urban Shop | Non-Responsive | Auth, Session
 ### Tech Stacks
 ![C#](https://img.shields.io/badge/Language-C%23-%23239120?style=flat&logo=csharp) &nbsp;
 ![.NET](https://img.shields.io/badge/.NET-8.0-blueviolet?style=flat&logo=dotnet) &nbsp;
