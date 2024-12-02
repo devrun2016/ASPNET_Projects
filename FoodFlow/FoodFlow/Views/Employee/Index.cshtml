@@ -27,6 +27,7 @@
                         <th>Email</th>
                         <th>Phone</th>
                         <th>Gender</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -34,10 +35,17 @@
                         <tr>
                             <td>@emp.Employee_ID</td>
                             <td>@emp.Employee_Name</td>
-                            <td>@emp.Employee_DoB</td>
+                            <td>@emp.Employee_DoB.ToString("yyyy-MM-dd")</td>
                             <td>@emp.Employee_Email</td>
                             <td>@emp.Employee_Phone</td>
                             <td>@emp.Employee_Gender</td>
+                            <td>
+                                <a asp-action="Edit" asp-route-id="@emp.Employee_ID" class="btn btn-primary btn-sm">Edit</a>
+                                <form asp-action="DeleteEmployee" method="post" asp-controller="Employee" class="d-inline">
+                                    <input type="hidden" name="id" value="@emp.Employee_ID" />
+                                    <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                                </form>
+                            </td>
                         </tr>
                     }
                 </tbody>
