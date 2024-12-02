@@ -6,5 +6,5 @@
 ### 📝 [E-Commerce](https://github.com/devrun2016/ASPNET_Projects/tree/main/UrbanShop_Rebuild) - Authentication + Admin Page
 * ![.NET](https://img.shields.io/badge/.NET-%23512BD4?style=flat&logo=.net&logoColor=white) ![SQL Server](https://img.shields.io/badge/MSSQL-%23CC2927?style=flat&logo=microsoft-sql-server&logoColor=white) ![C#](https://img.shields.io/badge/C%23-%23239120?style=flat&logo=c-sharp&logoColor=white)
 
-### 📝 [E-Commerce](https://github.com/devrun2016/ASPNET_Projects/tree/main/UrbanShop_Rebuild) - Full Stack | Restaurant Management System
+### 📝 [Restaurant ERP](https://github.com/devrun2016/ASPNET_Projects/tree/main/FoodFlow) - Full Stack | Restaurant Management System
 * ![.NET](https://img.shields.io/badge/.NET-%23512BD4?style=flat&logo=.net&logoColor=white) ![SQL Server](https://img.shields.io/badge/MSSQL-%23CC2927?style=flat&logo=microsoft-sql-server&logoColor=white) ![C#](https://img.shields.io/badge/C%23-%23239120?style=flat&logo=c-sharp&logoColor=white)
