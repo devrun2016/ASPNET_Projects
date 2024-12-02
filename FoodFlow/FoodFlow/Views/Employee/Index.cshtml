@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Employee>
+
+@{
+    ViewData["Title"] = "Employee Management";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2 vh-100 bg-dark">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a asp-controller="Employee" asp-action="Index" class="nav-link text-white">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a asp-controller="Employee" asp-action="AddEmployee" class="nav-link text-white">Add Employee</a>
+                </li>
+            </ul>
+        </div> 
+        <div class="col-10 vh-100" id="dynamic-content">
+            <h1 class="text-center">Employee List</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Employee ID</th>
+                        <th>Name</th>
+                        <th>Date Of Birth</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Gender</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var emp in Model) {
+                        <tr>
+                            <td>@emp.Employee_ID</td>
+                            <td>@emp.Employee_Name</td>
+                            <td>@emp.Employee_DoB</td>
+                            <td>@emp.Employee_Email</td>
+                            <td>@emp.Employee_Phone</td>
+                            <td>@emp.Employee_Gender</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

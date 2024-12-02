@@ -1,0 +1,49 @@
+﻿@model FoodFlow.Models.Employee
+
+<div class="container mt-4">
+    <h2>Employee Information Form</h2>
+    <form asp-action="CreateEmployee" method="post" class="mt-5">
+        <!-- Employee Name -->
+        <div class="mb-3">
+            <label asp-for="Employee_Name" class="form-label fs-4"></label>
+            <input asp-for="Employee_Name" class="form-control fs-4" placeholder="Enter full name" />
+            <span asp-validation-for="Employee_Name" class="text-danger"></span>
+        </div>
+
+        <!-- Date of Birth -->
+        <div class="mb-3">
+            <label asp-for="Employee_DoB" class="form-label fs-4"></label>
+            <input asp-for="Employee_DoB" class="form-control fs-4" type="date" />
+            <span asp-validation-for="Employee_DoB" class="text-danger"></span>
+        </div>
+
+        <!-- Gender -->
+        <div class="mb-3 fs-4">
+            <label asp-for="Employee_Gender" class="form-label"></label>
+            <select asp-for="Employee_Gender" class="form-control">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <span asp-validation-for="Employee_Gender" class="text-danger"></span>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="mb-3 fs-4">
+            <label asp-for="Employee_Phone" class="form-label"></label>
+            <input asp-for="Employee_Phone" class="form-control fs-4" placeholder="Enter phone number" />
+            <span asp-validation-for="Employee_Phone" class="text-danger"></span>
+        </div>
+
+        <!-- Email -->
+        <div class="mb-3">
+            <label asp-for="Employee_Email" class="form-label fs-4"></label>
+            <input asp-for="Employee_Email" class="form-control fs-4" placeholder="Enter email" />
+            <span asp-validation-for="Employee_Email" class="text-danger"></span>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary w-100 fs-4 fw-bold mt-5">Submit</button>
+    </form>
+</div>
