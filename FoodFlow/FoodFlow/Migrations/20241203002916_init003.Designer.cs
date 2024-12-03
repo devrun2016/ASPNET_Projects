@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FoodFlow.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241202110517_init1")]
-    partial class init1
+    [Migration("20241203002916_init003")]
+    partial class init003
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -47,6 +47,53 @@ namespace FoodFlow.Migrations
                     b.ToTable("Account");
                 });
 
+            modelBuilder.Entity("FoodFlow.Models.Department", b =>
+                {
+                    b.Property<int>("Dept_ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Dept_ID"));
+
+                    b.Property<string>("Dept_Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Dept_ID");
+
+                    b.ToTable("Departments");
+                });
+
+            modelBuilder.Entity("FoodFlow.Models.Employee", b =>
+                {
+                    b.Property<int>("Emp_ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Emp_ID"));
+
+                    b.Property<int>("Dept_ID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Emp_Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Emp_Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Emp_Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Emp_ID");
+
+                    b.HasIndex("Dept_ID");
+
+                    b.ToTable("Employees");
+                });
+
             modelBuilder.Entity("FoodFlow.Models.User", b =>
                 {
                     b.Property<int>("User_ID")
@@ -72,6 +119,17 @@ namespace FoodFlow.Migrations
                     b.HasIndex("Account_ID");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("FoodFlow.Models.Employee", b =>
+                {
+                    b.HasOne("FoodFlow.Models.Department", "Department")
+                        .WithMany()
+                        .HasForeignKey("Dept_ID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Department");
                 });
 
             modelBuilder.Entity("FoodFlow.Models.User", b =>

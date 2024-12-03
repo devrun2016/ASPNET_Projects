@@ -1,0 +1,57 @@
+﻿@model FoodFlow.Models.Employee
+
+@{
+    ViewData["Title"] = "Create Employee";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2 vh-100 bg-dark">
+            <ul class="nav flex-column">
+                <li class="nav-item p-1">
+                    <a asp-controller="Department" asp-action="Index" class="nav-link text-white">Dashboard</a>
+                </li>
+                <li class="nav-item p-1">
+                    <a asp-controller="Department" asp-action="AddDepartment" class="nav-link text-white">Add Department</a>
+                </li>
+                <li class="nav-item p-1">
+                    <a asp-controller="Department" asp-action="CreateEmployee" class="nav-link text-white">Add Employee</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-10 vh-100 bg-white">
+            <h2>Create Employee</h2>
+            <form asp-controller="Department" asp-action="CreateEmployee" method="post">
+                <div class="form-group">
+                    <label for="EmpName" class="control-label">Name</label>
+                    <input id="EmpName" name="EmpName" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label for="EmpPhone" class="control-label">Phone</label>
+                    <input id="EmpPhone" name="EmpPhone" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label for="EmpEmail" class="control-label">Email</label>
+                    <input id="EmpEmail" name="EmpEmail" class="form-control" />
+                </div>
+
+                <div class="form-group">
+                    <label for="DeptID" class="control-label">Department</label>
+                    <select id="DeptID" name="DeptID" class="form-control" asp-items="ViewBag.Departments"></select>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

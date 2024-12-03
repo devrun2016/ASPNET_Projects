@@ -10,8 +10,8 @@ namespace FoodFlow.Data
         //Tables
         public DbSet<Account> Account { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<Employee> Employee { get; set; }
-
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Employee> Employees { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

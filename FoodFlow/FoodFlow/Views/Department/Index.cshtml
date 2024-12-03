@@ -1,0 +1,57 @@
+﻿@model IEnumerable<FoodFlow.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employee Dashboard";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-2 vh-100 bg-dark">
+            <ul class="nav flex-column">
+                <li class="nav-item p-1">
+                    <a asp-controller="Department" asp-action="Index" class="nav-link text-white">Dashboard</a>
+                </li>
+                <li class="nav-item p-1">
+                    <a asp-controller="Department" asp-action="AddDepartment" class="nav-link text-white">Add Department</a>
+                </li>
+                <li class="nav-item p-1">
+                    <a asp-controller="Department" asp-action="Employee" class="nav-link text-white">Add Employee</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-10 vh-100 bg-white">
+            <h2>Employee Dashboard</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Emp ID</th>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Department</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var emp in Model)
+                    {
+                        <tr>
+                            <td>@emp.Emp_ID</td>
+                            <td>@emp.Emp_Name</td>
+                            <td>@emp.Emp_Phone</td>
+                            <td>@emp.Emp_Email</td>
+                            <td>@emp.Department?.Dept_Name</td> <!-- Dept_Name 표시 -->
+                            <td>
+                                <a asp-controller="Department" asp-action="Delete" asp-route-id="@emp.Emp_ID" class="btn btn-danger btn-sm"
+                                   onclick="return confirm('Are you sure you want to delete this employee?');">
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

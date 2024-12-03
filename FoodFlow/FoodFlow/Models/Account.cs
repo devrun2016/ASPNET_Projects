@@ -16,6 +16,5 @@ namespace FoodFlow.Models
         public required string Account_Password {  get; set; }
 
         public ICollection<User> Users { get; set; }
-        public ICollection<Employee> Employee { get; set; }
     }
 }

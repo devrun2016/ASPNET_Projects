@@ -1,30 +1,25 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace FoodFlow.Models
 {
     public class Employee
     {
         [Key]
-        public int Employee_ID { get; set; }
+        public int Emp_ID { get; set; }
 
         [Required]
-        [StringLength(50)]
-        public string Employee_Name { get; set; } = string.Empty;
+        public string Emp_Name { get; set; }
 
         [Required]
-        public DateTime Employee_DoB { get; set; }
+        public string Emp_Phone { get; set; }
 
         [Required]
-        [StringLength(10)]
-        public string Employee_Gender { get; set; } = string.Empty;
+        public string Emp_Email { get; set; }
 
-        [Required]
-        [EmailAddress]
-        [StringLength(100)]
-        public string Employee_Email { get; set; } = string.Empty;
+        [ForeignKey("Department")]
+        public int Dept_ID { get; set; }
 
-        [Required]
-        [StringLength(15)]
-        public string Employee_Phone { get; set; } = string.Empty;
+        public Department Department { get; set; }
     }
 }
