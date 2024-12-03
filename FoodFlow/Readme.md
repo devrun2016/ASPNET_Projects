@@ -7,8 +7,9 @@
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-2022-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white) &nbsp;
 ![SQL Server](https://img.shields.io/badge/RazorPages-512BD4?style=flat&logo=dotnet&logoColor=white)
 
-### Preview
-https://github.com/user-attachments/assets/44d40a4a-30ab-45d7-b012-e2c2dc99c2e9
+### Preview (Last Updated: Dec 3, 2024)
+https://github.com/user-attachments/assets/6cc300c6-20a9-4d34-9745-74dfdb5a0db0
+
 
 
 
