@@ -18,7 +18,7 @@ Dec 3, 2024
 - Dashboard added
 - Create User function Added (View too)
 - Employee Category Crated / Add Employee Created / List of Employees Created
-- Delete Employee / Edit Employee
+- Delete Employee
 - All Data added to Local DB
 
 Dec 2, 2024
